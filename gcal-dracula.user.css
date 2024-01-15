@@ -25,7 +25,8 @@
 		--purple: #bd93f9;
 		--red: #ff5555;
 		--yellow: #f1fa8c;
-		--comment-dimmed: rgba(98, 114, 164, 1) --hairline: var(--currentLine);
+		--comment-dimmed: rgba(98, 114, 164, 1);
+		--hairline: var(--currentLine);
 		--surface: var(--background);
 		--on-surface: var(--foreground);
 		--on-surface-variant: var(--comment);
