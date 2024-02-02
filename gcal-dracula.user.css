@@ -98,6 +98,8 @@
 	.gb_Cc .gb_9c/* Calendar Word */
 	,
 	.gb_cd/* Search Heading after search */
+	,
+	#gb
 	{
 		background-color: var(--currentLine)!important;
 		color: var(--foreground)!important;
