@@ -1,10 +1,10 @@
 /* ==UserStyle==
 @name           Google Calendar Dracula
-@namespace      github.com/accountingnerd/google-calendar
+@namespace      github.com/dracula/google-calendar
 @version        1.0.0
 @description    A dark theme for Google Calendar
 @author         accountingnerd [(https://github.com/accountingnerd)]
-@homepageURL	https://github.com/accountingnerd/google-calendar
+@homepageURL	https://github.com/dracula/google-calendar
 ==/UserStyle== */
 @-moz-document domain("calendar.google.com") {
 	/* Overall Dark Color Theme for Google Calendar */
