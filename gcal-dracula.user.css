@@ -46,7 +46,7 @@
 		--on-secondary-variant: var(--comment);
 		--surface-transparent: rgba(40, 42, 55, 0);
 		--now: var(--red);
-		--dimmed: rgba(68, 71, 90, 0.38);
+		--dimmed: var(--comment);
 		--chip-hover: var(--purple);
 		--error: var(--red);
 		--on-error: var(--foreground);
