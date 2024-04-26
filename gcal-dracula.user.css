@@ -58,734 +58,322 @@
 		--mdc-theme-on-surface: var(--foreground)!important;
 		--gm-hairlinebutton-ink-color: var(--cyan);
 		--gm-hairlinebutton-ink-color--stateful: var(--purple);
-		/*--mdc-checkbox-selected-icon-color: var(--purple);
-	--mdc-checkbox-selected-pressed-icon-color: var(--purple);
-	--mdc-checkbox-selected-checkmark-color: var(--foreground);
-	--mdc-checkbox-ink-color: var(--foreground);
-	--mdc-checkbox-selected-hover-icon-color: var(--currentLine);
-	--mdc-checkbox-unselected-icon-color: var(--currentLine);
-	--mdc-checkbox-unselected-hover-icon-color: var(--comment);*/
 		--mdc-theme-text-secondary-on-background: var(--foreground);
 		--gm-colortextbutton-ink-color: var(--purple);
 		--gm-colortextbutton-ink-color--stateful: var(--cyan);
 		--mdc-ripple-color: var(--cyan);
+		--mdc-theme-surface: var(--currentLine);
 		--gm-neutraltextbutton-state-color: var(--currentLine);
 		--checkbox-color: var(--purple);
 		--gm-radio-state-color: var(--purple);
 		--gm-radio-stroke-color--checked: var(--purple);
 		--gm-radio-stroke-color--unchecked: var(--purple);
 		--gm-radio-ink-color: var(--purple);
-	}
-	/*
-.google-material-icons {
-	filter: grayscale(1)
-}
-*/
-	/* alternative logo */
-	img.gb_Kc.gb_Ma.gb_Pa {
-		background-image: url(--alternate-logo-source);
+
+		--gm3-icon-button-filled-container-color: transparent;
+		--gm3-icon-button-filled-icon-color: var(--foreground) !important;
+		--gm3-icon-button-filled-hover-icon-color: var(--foreground) !important;
+		--gm3-icon-button-filled-focus-icon-color: var(--foreground) !important;
+		--gm3-icon-button-filled-hover-state-layer-color: var(--foreground) !important;
+		--gm3-icon-button-filled-pressed-icon-color: var(--foreground) !important;
+		--gm3-icon-button-filled-hover-state-layer-opacity: 0.2;
+		--gm3-icon-button-filled-pressed-state-layer-opacity: 0.5;
+		--pkw-background: var(--background);
+		--pkw-primary: var(--cyan);
+		--pkw-on-surface: var(--foreground);
+		--pkw-on-surface-variant: var(--comment);
 	}
 
-	/* Header */
-	.gb_Ka,
-	.gb_Ad,
-	.gb_Qc,
-	.gb_ld,
-	.gb_0c,
-	.gb_kd,
-	.gb_Ic svg/* Hamburger Menu */
+	body,
+	header.gb_Ra {
+		background-color: var(--currentLine) !important;
+		color: var(--foreground) !important;
+	}
+
+	/* Header Elements */
+	.gb_Pc svg,
+	.NkK3Fc span[role=heading],
+	.j9Fkxf:not(:disabled),
+	.JJyfjc,
+	.UyW9db,
+	.ec9Aq,
+	.gb_Ra svg,
+	.gb_Vc svg,
+	.gb_hd .gb_pd,
+	.gb_7c .gb_pd {
+		color: var(--foreground) !important;
+	}
+
+	/* ========== End Header ========== */
+	/* ========== Sidebar Elements ========== */
+	.Q4y17 .r4nke/* Month */
 	,
-	.gb_Cc .gb_9c/* Calendar Word */
+	.fWMZdd/* Meet With... */
 	,
-	.gb_cd/* Search Heading after search */
+	.HHHDef/* Arrows */
 	,
-	#gb
+	.qADfd/* Time Insights */
 	{
-		background-color: var(--currentLine)!important;
-		color: var(--foreground)!important;
-	}
-
-	.gb_Na svg,
-	.gb_Rc svg,
-	.gb_dd .gb_ld,
-	.gb_3c .gb_ld {
 		color: var(--purple)
 	}
 
-	/* Today Button */
-	.xYvThe:not(:disabled)/* View Selector */
-	,
-	.yR9sJd.yR9sJd:not(:disabled),
-	.yR9sJd.yR9sJd:not(:disabled).VfPpkd-ksKsZd-mWPk3d-OWXEXe-AHe6Kc-XpnDCe,
-	.yR9sJd.yR9sJd:not(:disabled):not(.VfPpkd-ksKsZd-mWPk3d):focus {
-		color: var(--foreground);
-		border-color: var(--purple);
-	}
-	.xYvThe:not(:disabled):hover,
-	.yR9sJd.yR9sJd:not(:disabled):hover {
-		color: var(--foreground);
-		border-color: var(--purple);
-		background-color: var(--purple);
-	}
-
-	/* Day/Week/Month Name */
-	.rSoRzd,
-	.OwNvm {
-		color: var(--foreground);
-	}
-
-	.q6oraf .VfPpkd-StrnGf-rymPhb .VfPpkd-StrnGf-rymPhb-IhFlZd,
-	.OwNvm .VfPpkd-StrnGf-rymPhb-f7MjDc {
-		color: var(--purple)
-	}
-
-
-	.JJyfjc/* Movement Selector Buttons */
-	,
-	.ec9Aq/* Search/Help Settings Icons*/
-	,
-	.gb_Ka svg {
-		color: var(--foreground);
-	}
-
-	.JJyfjc:hover/* Movement Selector Buttons */
-	,
-	.ec9Aq:hover/* Search/Help Settings Icons*/
-	,
-	.gb_Ka svg:hover {
-		color: var(--purple);
-	}
-
-	/* Search/Advanced Search */
-	.gb_Ce svg {
-		color: var(--purple)
-	}
-
-	.BYXlo,
-	.ncFHed {
-		background-color: var(--currentLine);
-	}
-
-	.jgvuAb .kRoyt,
-	.yzFeIb .Fh4HL {
-		color: var(--foreground);
-		background-image: none;
-	}
-
-
-	.MoG8C[aria-selected=false] {
-		background-color: var(--purple)!important
-	}
-
-	.Fh4HL:hover {
-		color: var(--cyan);
-	}
-
-	.cC1eCc .VfPpkd-k2Wrsb {
-		color: var(--foreground);
-	}
-
-	.cC1eCc .VfPpkd-P5QLlc {
-		background-color: var(--background);
-		border: 2px solid var(--purple);
-	}
-
-	input.VfPpkd-fmcmS-wGMbrd {
-		color: var(--background);
-	}
-
-	.gHQcAb {
-		background-color: var(--background);
-	}
-
-	/* Sidebar */
-	.Kk7lMc-DWWcKd-OomVLb-haAclf {
-		background-color: var(--currentLine)
-	}
-
-	/* Main Content */
-	.OCQPo,
-	.pCoqfc,
-	.MANBAf,
-	.GENA3c,
-	.v83gc,
-	.UrIkue {
-		background-color: var(--background);
-		color: var(--foreground);
-	}
-
-	.lmNFmc.pCoqfc {
-		border-bottom: 1px solid var(--currentLine)
-	}
-
-	/* Mini Calendar */
-	.W0m3G.i8dSE:hover .r4nke {
-		color: var(--purple);
-	}
-	.W0m3G:hover .r4nke {
-		color: var(--background);
-	}
-
-	/* Create/Plus Button */
-	.buGMKc,
-	.dwlvNd.RDPZE .buGMKc:hover,
-	.dwlvNd.RDPZE .buGMKc:focus {
-		background-color: var(--currentLine);
-	}
-
-	.lUmaj .c7fp5b:hover,
-	.lUmaj .c7fp5b:focus {
-		background-color: var(--comment);
-	}
-
-	/* Event Details */
-	.Jmftzc.EiZ8Dd.UflSff,
-	.Jmftzc.YkxAAf.UflSff {
-		color: var(--background);
-		fill: var(--background);
-	}
-
-	.NWI43 .biVwfd {
-		color: var(--background)
-	}
-
-	/* Event Details - Meeting Name and All Day button */
-	.WmnPA:not(.VfPpkd-fmcmS-yrriRe-OWXEXe-OWB6Me) .VfPpkd-fmcmS-wGMbrd,
-	.VfPpkd-I9GLp-yrriRe {
-		color: var(--foreground)
-	}
-
-	/* Conferencing Details Button */
-	.QkA63b,
-	.Y5sE8d {
-		background-color: var(--purple);
-		color: var(--foreground)
-	}
-
-	/* Event Details and Find a Time Buttons */
-	.WbUJNb .VfPpkd-jY41G-V67aGc {
-		color: var(--comment)
-	}
-
-	/* Event Color Popup */
-	.VfPpkd-xl07Ob-XxIAqe,
-	:not(.DswEsf).nB7Rvb .AHbDKf,
-	.hqBSCb:not(.VfPpkd-O1htCb-OWXEXe-OWB6Me) .VfPpkd-TkwUic,
-	.hqBSCb .VfPpkd-TkwUic .VfPpkd-woaZLe::before,
-	.hqBSCb .VfPpkd-TkwUic .VfPpkd-woaZLe::after,
-	.hqBSCb:not(.VfPpkd-O1htCb-OWXEXe-OWB6Me) .VfPpkd-uusGie-fmcmS,
-	.s8kOBc .VfPpkd-rymPhb-ibnC6b.VfPpkd-rymPhb-ibnC6b-OWXEXe-gk6SMd {
-		background-color: var(--currentLine);
-		color: var(--foreground);
-	}
-
-	.P2Hi5d,
-	.mkMxfe,
-	.OBi8lb,
-	.P9QRxe,
-	.vqjb4e,
-	.y8Rdrf,
-	.DMZ54e,
-	.VfPpkd-rymPhb-fpDzbe-fmcmS,
-	.AZW99.HddOwd {
-		color: var(--foreground)
-	}
-
-	/* Settings - Start Week On */
-	.h6n9p .VfPpkd-OkbHre .VfPpkd-rymPhb-fpDzbe-fmcmS {
-		color: var(--foreground)
-	}
-
-	/* Settings - Time Zone - Label */
-	.WmnPA:not(.VfPpkd-fmcmS-yrriRe-OWXEXe-OWB6Me) {
-		background-color: var(--currentLine)
-	}
-	.WmnPA:not(.VfPpkd-fmcmS-yrriRe-OWXEXe-OWB6Me) .VfPpkd-fmcmS-wGMbrd,
-	.VfPpkd-I9GLp-yrriRe {
-		color: var(--foreground)
-	}
-
-	/* Settings - Small Labels */
-	.WmnPA:not(.VfPpkd-fmcmS-yrriRe-OWXEXe-OWB6Me) .VfPpkd-NLUYnc-V67aGc,
-	.hqBSCb:not(.VfPpkd-O1htCb-OWXEXe-OWB6Me) .VfPpkd-NLUYnc-V67aGc,
-	.xBzOW {
-		color: var(--cyan)
-	}
-
-	/* Settings - Time Zones */
-	.s8kOBc .VfPpkd-rymPhb-ibnC6b-OWXEXe-gk6SMd .VfPpkd-rymPhb-fpDzbe-fmcmS,
-	.s8kOBc .VfPpkd-rymPhb-ibnC6b-OWXEXe-pXU01b .VfPpkd-rymPhb-fpDzbe-fmcmS,
-	.s8kOBc .VfPpkd-rymPhb-ibnC6b-OWXEXe-gk6SMd.VfPpkd-rymPhb-ibnC6b-OWXEXe-SfQLQb-M1Soyc-Bz112c .VfPpkd-rymPhb-KkROqb,
-	.s8kOBc .VfPpkd-rymPhb-ibnC6b-OWXEXe-pXU01b.VfPpkd-rymPhb-ibnC6b-OWXEXe-SfQLQb-M1Soyc-Bz112c .VfPpkd-rymPhb-KkROqb,
-	.s8kOBc .VfPpkd-rymPhb-fpDzbe-fmcmS {
-		color: var(--foreground)
-	}
-
-	/* Settings - Guest Permissions */
-	.lUmaj .c7fp5b {
-		color: var(--foreground)
-	}
-	.JPdR6b {
-		background-color: var(--currentLine);
-	}
-	.PkVVCd {
-		color: var(--cyan)
-	}
-
-	.z80M1 {
-		color: var(--foreground)
-	}
-	.z80M1.FwR7Pc {
-		background-color: var(--comment)
-	}
-
-	/* Settings - Setting for My Calendars and Other Calendars */
-	.nxPHec {
-		color: var(--purple)
-	}
-
-
-	.nBzcnc.Wm6kRe:hover {
-		color: var(--purple);
-		background-color: var(--currentLine);
-	}
-
-	.cAYGed.KKjvXb .Ioup7e,
-	.cAYGed.KKjvXb .BMQm1d {
-		color: var(--foreground);
-		background-color: var(--currentLine)
-	}
-
-	.nBzcnc.Wm6kRe.huVZvb:hover,
-	.GrxScd .SWigMc.Wm6kRe.huVZvb:focus,
-	.nBzcnc.gk6SMd.huVZvb,
-	.cAYGed.KKjvXb .Ioup7e:hover,
-	.cAYGed.KKjvXb .BMQm1d:hover {
-		color: var(--foreground);
-		background-color: var(--currentLine)
-	}
-
-	.DaQ2rc.KKjvXb .Oxnkef {
-		color: var(--pink);
-		border-left: var(--pink) 2px solid;
-	}
-
-
-	/* Add Calendar Dropdown */
-	.AZW99,
-	.OFaVze {
-		background: var(--currentLine);
-	}
-
-	.OFaVze {
-		border: 2px solid var(--comment);
-	}
-
-	.WmnPA .VfPpkd-fmcmS-wGMbrd {
-		caret-color: var(--comment)
-	}
-
-	/*  Person Selector in Add Calendar */
-	/* Add to Calendar */
-	.hqBSCb:not(.VfPpkd-O1htCb-OWXEXe-OWB6Me).VfPpkd-O1htCb-OWXEXe-XpnDCe .VfPpkd-NLUYnc-V67aGc {
-		color: var(--cyan)
-	}
-
-	.VfPpkd-NLUYnc-V67aGc {
-		color: var(--cyan)
-	}
-
-	.PNwDub,
-	.G1zVib {
-		color: var(--foreground)
-	}
-
-	.AZW99:hover {
-		background: var(--background);
-		color: var(--foreground)
-	}
-
-	/* Delete Recurring Event */
-	.I7OXgf {
-		background-color: var(--background)
-	}
-
-	/* Time Insights - Hover */
-	.VmTz5c {
-		background-color: var(--background);
-		border: 1px solid var(--purple);
-	}
-
-	.VIpVYd,
-	.zluh2c {
-		color: var(--foreground);
-	}
-
-	/* Left Calendar Day Headings */
-	.SoBqBf {
-		color: var(--purple);
-		font-weight: bold;
-	}
-
-	/* Tiny Labels */
-	.WmnPA.VfPpkd-fmcmS-yrriRe-OWXEXe-XpnDCe:not(.VfPpkd-fmcmS-yrriRe-OWXEXe-OWB6Me) .VfPpkd-NLUYnc-V67aGc {
-		color: var(--cyan);
-	}
-
-	.VfPpkd-fmcmS-yrriRe,
-	.VfPpkd-O1htCb-OWXEXe-MFS4be .VfPpkd-TkwUic {
-		border-bottom: 2px solid var(--cyan)
-	}
-
-	/* Coloring Labels */
-	.V8Yldb,
-	.lLCaB.Enkreb {
-		color: var(--foreground)
-	}
-
-	/* Meeting Location */
-	.xlHPle .VfPpkd-fmcmS-yrriRe:not(.VfPpkd-fmcmS-yrriRe-OWXEXe-OWB6Me) {
-		background-color: var(--currentLine)
-	}
-	.dgjdGd .xZFe0d.xZFe0d:not(.VfPpkd-fmcmS-yrriRe-OWXEXe-OWB6Me) .VfPpkd-fmcmS-wGMbrd {
-		color: var(--foreground);
-		caret-color: var(--cyan);
-	}
-	.TxnXxc .VfPpkd-StrnGf-rymPhb-f7MjDc,
-	.TxnXxc {
-		color: var(--purple);
-	}
-
-	.r6B9Fd .VfPpkd-rymPhb-ibnC6b.VfPpkd-rymPhb-ibnC6b-OWXEXe-gk6SMd {
-		background-color: var(--currentline);
-	}
-
-	.r6B9Fd .VfPpkd-rymPhb-ibnC6b-OWXEXe-gk6SMd .VfPpkd-rymPhb-fpDzbe-fmcmS,
-	.r6B9Fd .VfPpkd-rymPhb-ibnC6b-OWXEXe-pXU01b .VfPpkd-rymPhb-fpDzbe-fmcmS,
-	.r6B9Fd .VfPpkd-rymPhb-ibnC6b-OWXEXe-gk6SMd.VfPpkd-rymPhb-ibnC6b-OWXEXe-SfQLQb-M1Soyc-Bz112c .VfPpkd-rymPhb-KkROqb,
-	.r6B9Fd .VfPpkd-rymPhb-ibnC6b-OWXEXe-pXU01b.VfPpkd-rymPhb-ibnC6b-OWXEXe-SfQLQb-M1Soyc-Bz112c .VfPpkd-rymPhb-KkROqb {
-		color: var(--foreground);
-	}
-
-	.Kkx9Lb:not(:disabled):hover {
+	.PcdQkc .NCyou/* Time insights week */
+	{
 		color: var(--pink)
 	}
-	.Kkx9Lb:not(:disabled) {
-		color: var(--purple)
-	}
 
-	.pOupbb {
-		background-color: var(--foreground)
-	}
-
-	/* Little label in working location */
-	.cC1eCc .VfPpkd-cnG4Wd {
-		color: var(--cyan);
-	}
-
-	/* Calendar Item Headings */
-	.fqZQ1b .toUqff {
+	.PcdQkc .WPEztb/* Time insights text */
+	{
 		color: var(--foreground);
 	}
 
-	.hfyfle,
-	.q7aeG,
-	.HfYfLe {
-		color: var(--purple)
+	/* Time Insights Graph */
+	.c6dqA {
+		background-color: var(--purple) !important;
+	}
+	.c6dqA.Jx4JNd {
+		background-color: var(--comment) !important;
 	}
 
-	.hfyfle:hover,
-	.q7aeG:hover,
-	.HfYfLe:hover {
-		color: var(--purple)
+	.c6dqA.TdEQef {
+		background-color: var(--foreground) !important;
 	}
 
-	.LQeN7 .VfPpkd-J1Ukfc-LhBDec {
-		border-color: var(--cyan);
-	}
-
-	.VfPpkd-LgbsSe:not(:disabled) {
-		color: var(--purple);
-	}
-	.VfPpkd-LgbsSe:not(:disabled):hover {
+	.k50Dh,
+	.f1QMue,
+	.IOneve/* Calendar Widget */
+	,
+	.IOneve .r4nke/* Calendar Days */
+	,
+	#drawerMiniMonthNavigator/* Calendar Div */
+	,
+	.IOneve::before {
 		color: var(--foreground);
+		background-color: var(--currentLine);
 	}
 
-	.zpRRx {
-		color: var(--cyan)!important
-	}
-
-	.aXFFQc {
-		background-color: var(--currentLine)!important
-	}
-
-	.KSxb4d.RKLVef:hover,
-	body.geSgge .KSxb4d.RKLVef:hover,
-	.KSxb4d.N4XV7d.RKLVef:hover,
-	body.geSgge .KSxb4d.N4XV7d.RKLVef:hover {
-		background-color: var(--currentLine)
-	}
-
-	.KSxb4d.F262Ye.RKLVef:hover,
-	body.geSgge .KSxb4d.F262Ye.RKLVef:hover {
-		background-color: var(--comment)
-	}
-
-	.mN1ivc .VfPpkd-Bz112c-J1Ukfc-LhBDec {
-		border-color: var(--cyan)
-	}
-
-	.DYLA1c {
-		background-color: var(--currentLine)!important;
-	}
-
-	.pXxjhe {
-		color: var(--foreground);
-	}
-
-	.cnTo8e.FYQzvb.Z3ReZe {
-		border-color: var(--comment);
+	.p6vobf .r4nke,
+	.p6vobf.pWJCO .r4nke,
+	.p6vobf.pWJCO.q2d9Ze .r4nke,
+	.J09ahd /* meet with people list */
+	{
 		background-color: var(--background);
 	}
 
-	.cnTo8e.FYQzvb::before {
-		background-color: var(--background);
+	.IAQE3d/* Other Time Zones */
+	{
+		color: var(--pink)
 	}
 
-	.xsCLGd {
-		background-color: var(--comment)!important;
-	}
-
-	.LQeN7 .VfPpkd-J1Ukfc-LhBDec {
-		border: 2px solid var(--cyan);
-	}
-
-	.VfPpkd-vQzf8d {
-		color: var(--foreground);
-	}
-
-	/* Pending Tasks */
-	.Ebscz .UfeRlc,
-	.Ebscz div.AzuXid {
+	.o8t45d/* My Calendars */
+	,
+	.toUqff/* Calendar Names */
+	{
 		color: var(--foreground)
 	}
 
-	.INBYpd {
+	/* ========== End Sidebar ========== */
+	/* ========== Main Calendar ========== */
+	.OCQPo,
+	.pbeTDb,
+	.RAaXne,
+	/* Main Background Color */
+	.sS0sZd/* Time Zone Selectors */
+	,
+	.R6TFwe/* Time Labels */,
+	.NAFvr /* RSVP Line in Event Details */,
+	.Az5uJd.RLj2u,
+	.wmCMbe /* Top of the new event Details */
+	{
 		background-color: var(--currentLine);
 	}
-
-	/* Repeat On */
-	.IuSHYd.N2RpBe {
-		color: var(--foreground);
-		background: var(--purple)
+	
+	.wmCMbe
+	{
+		box-shadow: inset 0 1px var(--background)
 	}
 
-	/* Trash */
-	.aDCdzb {
-		color: var(--purple)
-	}
-
-	.Lzfnue {
-		background-color: var(--background);
-		color: var(--foreground);
-	}
-
-	.ETUnje {
-		border-top: var(--hairline) 1px solid;
-	}
-
-	.ETUnje:hover {
-		border-top: var(--comment) 1px solid;
-	}
-
-	.GjP4J {
-		color: var(--cyan);
-	}
-
-	.GjP4J:hover {
-		color: var(--comment);
-	}
-
-	.nBzcnc.Wm6kRe.huVZvb:hover,
-	.GrxScd .SWigMc.Wm6kRe.huVZvb:focus,
-	.nBzcnc.gk6SMd.huVZvb {
-		background-color: var(--currentLine);
-	}
-
-	.LOewLb.KKjvXb .toUqff {
-		color: var(--foreground);
-	}
-	.LOewLb.KKjvXb {
-		background-color: var(--comment);
-	}
-
-	.QUROo > *,
-	.ETUnje > * {
+	.ouBNcf,
+	.iHNmdb/* Times */
+	,
+	.nSCxEf.pCcXPe/* Day of the month */
+	,
+	.tWjOu,
+	.tWjOu.pCcXPe,
+	.tWjOu.N4XV7d/* Day Names */
+	,
+	.zVMKbc/* Calendar Names - Day View */
+	,
+	.EeuFAf/* Days of the week - Month View */
+	,
+	.o5s4T .w48V4c, /* Day Number - Current Month - Month View */
+	.i5a7ie.krHqHb, /* Top Row - Event Details */
+	.q7aeG, /* X button - Event Details */
+	.HfYfLe, /* Edit and delete buttons - Event Details */
+	.Mz3isd .EaVNbc /* Time and List Buttons - Event Details */,
+	.qXIcZc .GEhdLd /* calendar cannot be shown */
+	{
 		color: var(--foreground);
 	}
 
-	.BfY7Sb,
-	.ZdTeT {
-		color: var(--comment);
-	}
-
-	.URnnPe {
-		color: var(--red);
-	}
-
-	.u6mZZ {
-		background-color: var(--currentLine);
-	}
-
-	.LmzXcf {
-		color: var(--foreground);
-	}
-
-	.BA2P7d,
-	.u6mZZ .HyA7Fb {
-		color: var(--comment);
-	}
-
-	.r6B9Fd .VfPpkd-rymPhb-fpDzbe-fmcmS {
-		color: var(--foreground)
-	}
-
-	.VfPpkd-StrnGf-rymPhb-clz4Ic {
-		border-bottom-color: var(--comment);
-	}
-
-	.XBkKC,
-	.LjrQce .zHQkBf {
-		color: var(--comment);
-	}
-
-	/* Buttons at the top of the screen */
-	.VfPpkd-vQzf8d {
-		color: var(--foreground);
-	}
-
-	.bhtr0e.KKjvXb {
-		background-color: var(--background)
-	}
-
-	.r6B9Fd .VfPpkd-rymPhb-ibnC6b-OWXEXe-SfQLQb-M1Soyc-Bz112c .VfPpkd-rymPhb-KkROqb,
-	.r6B9Fd .VfPpkd-rymPhb-ibnC6b-OWXEXe-SfQLQb-UbuQg-Bz112c .VfPpkd-rymPhb-JMEf7e,
-	.r6B9Fd .VfPpkd-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-rymPhb-fpDzbe-fmcmS,
-	.r6B9Fd .VfPpkd-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-rymPhb-L8ivfd-fmcmS,
-	.r6B9Fd .VfPpkd-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-rymPhb-bC5pod-fmcmS,
-	.r6B9Fd .VfPpkd-rymPhb-ibnC6b-OWXEXe-OWB6Me.VfPpkd-rymPhb-ibnC6b-OWXEXe-SfQLQb-M1Soyc-Bz112c .VfPpkd-rymPhb-KkROqb,
-	.r6B9Fd .VfPpkd-rymPhb-ibnC6b-OWXEXe-OWB6Me.VfPpkd-rymPhb-ibnC6b-OWXEXe-SfQLQb-UbuQg-Bz112c .VfPpkd-rymPhb-JMEf7e,
-	.r6B9Fd .VfPpkd-rymPhb-ibnC6b-OWXEXe-OWB6Me.VfPpkd-rymPhb-ibnC6b-OWXEXe-SfQLQb-UbuQg-r4m2rf .VfPpkd-rymPhb-JMEf7e {
-		color: var(--cyan);
-	}
-
-	.gb_Ba {
-		background-color: var(--currentLine);
-		border-color: var(--purple);
-		border-width: 2px
-	}
-
-	.gb_Ba:hover {
-		background-color: var(--currentLine);
-		border-color: var(--cyan);
-		border-width: 2px;
-	}
-
-	/* Date in Pending Tasks */
-	.ac2XHd .AzuXid {
-		color: var(--foreground);
-	}
-
-	.RDlrG {
-		border: 2px solid var(--pink);
-	}
-
-	.NkK3Fc span[role=heading] {
-		color: var(--foreground);
-	}
-
-	.MDfQ7 div {
-		color: var(--foreground);
-	}
-
-	.MDfQ7 div a {
-		color: var(--comment)
-	}
-
-	div.IuSHYd {
-		color: var(--background);
-	}
-
-	.VLl48b {
-		background-color: var(--background);
-	}
-
-	.N9QIve .LMgvRb {
-		color: var(--foreground);
-	}
-
-	.LMgvRB.MocG8c[aria-selected=true] {
-		background-color: var(--currentLine)!important;
-	}
-
-	.ncFHed .MocG8c.KKjvXb {
-		background-color: var(--comment);
-		color: var(--foreground);
-	}
-
-	.N9QIve .OA0qNb {
-		color: var(--foreground);
-	}
-
-	/* Time Insights Sidebar */
-	.BF7cNd,
-	.msLrsf,
-	.IJDILb,
-	.UQuaGc,
-	.yVvvMc,
-	.hPfWQd,
-	.uoCvO {
-		color: var(--foreground);
-	}
-
-	.BIsmBd[aria-checked=true] .r8fcBf {
-		color: var(--currentLine);
-	}
-	.aiNrUc,
-	.d5l5Ec,
-	.PlHTad,
-	.SWGFcb,
-	.z0FS4c,
-	.eWT7sb,
-	.SDiQL,
-	.hRlabf {
-		color: var(--pink);
-	}
-
-	.hRlabf.FwR7Pc {
-		color: var(--cyan)!important;
-	}
-
-	.Uaf9uf {
-		background-color: var(--currentLine);
-		color: var(--foreground);
-	}
-
-	.Uaf9uf .Ce1Y1c svg {
+	.w48V4c, /* Day Numbers - Prior Month/Next Month - Month View */
+	.KF4T6b.qqMC3e,
+	.KF4T6b.smECzc,/* Event Names - Future Events - Month View */
+	.KF4T6b.UflSff .nHqeVd, /* Event Names - Past Events - Month View */
+	.fqZQ1b .toUqff /* Task Title - Task Details */,
+	.agOyMd .UfeRlc /* Event Title - Event Details */,
+	.agOyMd div.AzuXid /* Event Time - Event Details */,
+	.pdqVLc .cjq2Db:not(.RDPZE), .pdqVLc .DPvwYc, .pdqVLc .meh4fc /* Event Details Icons */,
+	.meh4fc svg /* Meeting Notes Icon */,
+	.pdqVLc .toUqff /* Event Details Text */,
+	.YTCBlf /* Going? - Event Details */,
+	.WjVFVc .VfPpkd-StrnGf-rymPhb-ibnC6b /* Event Detail Options */,
+	.VfPpkd-xl07Ob .VfPpkd-StrnGf-rymPhb-IhFlZd, .VfPpkd-xl07Ob .VfPpkd-StrnGf-rymPhb-f7MjDc /* Attach a Document */,
+	.cC1eCc .VfPpkd-k2Wrsb /* Add a Note - Title */
+	{
 		color: var(--foreground);
 		fill: var(--foreground);
 	}
-
-	.HQ8yf,
-	.HQ8yf a {
-		color: var(--purple);
-	}
-
-	.BR0Xkc {
-		color: var(--comment);
-	}
-
-	.IZXV0b {
+	
+	.WmnPA:not(.VfPpkd-fmcmS-yrriRe-OWXEXe-OWB6Me),
+	.lUmaj /* RSVP Dropdown */
+	{
+		background-color: var(--currentLine);
 		color: var(--foreground);
 	}
+	
+	.WmnPA:not(.VfPpkd-fmcmS-yrriRe-OWXEXe-OWB6Me) .VfPpkd-fmcmS-wGMbrd /* Add a note - Text Area */,
+	.jO7h3c /* Response Choices */
+	,.OwNvm /* Completed Task Options */
+	{
+		color: var(--foreground);
+	}
+	
+	.SP8Atf /* Completed Task Icons */
+	{
+		color: var(--comment);
+	}
+	
+	.NZp2ef,/* Event Detail Options Background */
+	.cC1eCc .VfPpkd-P5QLlc /* Add a note background */,
+	.JPdR6b
+	{
+		background-color: var(--background);
+	}
+	
+	/* Event Detail Buttons */
+	.wIfg3e.KKjvXb .myBJaf:not(:disabled),
+	.wIfg3e.KKjvXb .Pjbkr:not(:disabled)
+	{
+		border-color: var(--background);
+	}
+	
+	/* RSVP Hover */
+	.z80M1.FwR7Pc {
+		background-color: var(--currentLine);
+	}
+	
+	.wIfg3e.KKjvXb .myBJaf:not(:disabled),
+	.wIfg3e.KKjvXb .Pjbkr:not(:disabled),
+	.DrZ8nd:not(:disabled),
+	.qau86b,
+	.s3dr1 /* Set your working location */,
+	.HfYfLe:hover /* Snowman - Event Details */,
+	#c2637 /* Add a Note Text */,
+	.lUmaj .c7fp5b /* RSVP Status */
+	{
+		color: var(--purple)
+	}
+	
+	.YWILgc /* Event Details - Borders */
+	{
+		border-top: var(--comment) 1px solid;
+	}
+	
+	.lhydbb.EiZ8Dd.UflSff, .lhydbb.YkxAAf.UflSff /* Forgot to write this down */,
+	.cC1eCc .VfPpkd-cnG4Wd
+	{
+		color: var(--background)
+	}
+	
+	.kma42e /* Event/Task Details Background */
+	, .cnTo8e.FYQzvb::before /* Meet with Person Card */
+	{
+		background-color: var(--currentLine)
+	}
+	
+	.AzuXid /* Repeat Frequency - Task Details */
+	{
+		color: var(--pink);
+	}
+	
+	.IPEQnf /* Take Meeting Notes */,
+	.S4zwaf a:link, .S4zwaf a:visited, .S4zwaf a:active, .S4zwaf a:hover /* Hyperlinks in meeting details */
+	{
+		color: var(--cyan);
+	}
+	
+	.pdqVLc .AzuXid /* Start a new document ... */,
+	.pVsObb /* Search for People */
+	{
+		color: var(--comment)
+	}
+	
+	.hEtGGf::after{
+		display: none;
+	}
+	
+	.DYLA1c /* People Card Background */,
+	.WmnPA:not(.VfPpkd-fmcmS-yrriRe-OWXEXe-OWB6Me), .lUmaj
+	{
+		background-color: var(--background);
+	}
+	
+	.WmnPA:not(.VfPpkd-fmcmS-yrriRe-OWXEXe-OWB6Me) .VfPpkd-RWgCYc-ksKsZd::after
+	{
+		border-bottom-color: var(--pink);
+	}
+	
+	/* New Event Details */
+	.zmrbhe
+	,.tWjOu.F262Ye /* Today Week Day */
+	{
+		color: var(--purple);
+	}
+	.zmrbhe.qs41qe
+	{
+		color: var(--foreground);
+		background-color: var(--purple)
+	}
+	.XsU8xf /* new event icons */
+	,.v094wc, .KJGbpd
+	,.ydqcTb
+	,.Z5RD1e /* new event dates */
+	,.jT5e9 /* Calendar Selector */
+	,.hqBSCb:not(.VfPpkd-O1htCb-OWXEXe-OWB6Me) .VfPpkd-uusGie-fmcmS
+	,.D47vbb:not(:disabled)
+	,.q6oraf .VfPpkd-StrnGf-rymPhb .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-b9t22c, .q6oraf .VfPpkd-StrnGf-rymPhb .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-fpDzbe-fmcmS, .q6oraf .VfPpkd-StrnGf-rymPhb .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-L8ivfd-fmcmS /* Show Weekends, Declined Events, Completed Tasks, Appt. Schedules */
+	{
+		color: var(--foreground);
+	}
+	
+	.wTj3Dc /* new event repeat */
+	,.q6oraf .VfPpkd-StrnGf-rymPhb .VfPpkd-StrnGf-rymPhb-IhFlZd /* Shortcut keys for calendars */
+	{
+		color: var(--comment);
+	}
+	
+	.Y5sE8d /* Video conferencing */
+	,.QkA63b
+	{
+		color: var(--foreground);
+		background-color: var(--purple);
+	}
+	
+	.nSCxEf.F262Ye, body.geSgge .nSCxEf.F262Ye /* Current Date */
+	{
+		color: var(--foreground);
+		background-color: var(--purple);
+	}
 }
+	
