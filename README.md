@@ -15,6 +15,10 @@ This theme is maintained by the following person(s) and a bunch of [awesome cont
 | [![Aaron Clark](https://github.com/accountingnerd.png?size=100)](https://github.com/accountingnerd)   |
 |---------|
 | [Aaron Clark](https://github.com/accountingnerd)                                                      |
+|---------|
+| [![José Manuel Lucas](https://github.com/jmlweb.png?size=100)](https://github.com/jmlweb)             |
+|---------|
+| [José Manuel Lucas](https://github.com/jmlweb)                                                        |
 
 ## Community
 
