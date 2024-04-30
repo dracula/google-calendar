@@ -12,9 +12,9 @@ All instructions can be found at [draculatheme.com/google-calendar](https://drac
 
 This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/google-calendar/graphs/contributors).
 
-| [![Aaron Clark](https://github.com/accountingnerd.png?size=100)](https://github.com/accountingnerd)   | [![José Manuel Lucas](https://github.com/jmlweb.png?size=100)](https://github.com/jmlweb)             |
-|---------|---------|
-| [Aaron Clark](https://github.com/accountingnerd)                                                      | [José Manuel Lucas](https://github.com/jmlweb)                                                        |
+| [![Aaron Clark](https://github.com/accountingnerd.png?size=100)](https://github.com/accountingnerd)   |
+|---------|
+| [Aaron Clark](https://github.com/accountingnerd)                                                      |
 
 
 ## Community
