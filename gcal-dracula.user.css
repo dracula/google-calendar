@@ -85,11 +85,22 @@
 		--mdc-checkbox-selected-icon-color: var(--purple);
 		--mdc-checkbox-unselected-hover-state-layer-color: var(--comment);
 	}
+	
+	.xg1yEb.xg1yEb {
+		--gm3-icon-button-filled-icon-color: var(--purple);
+		--gm3-icon-button-filled-hover-icon-color: var(--pink);	
+		--gm3-icon-button-filled-focus-icon-color: var(--purple);
+		--gm3-icon-button-filled-hover-state-layer-color: var(--pink);
+		--gm3-icon-button-filled-pressed-icon-color: var(--cyan);
+		
+	}
 
-	body,
+	body {
+		background-color: var(--background);
+	}
+	
 	header.gb_Ra {
 		background-color: var(--currentLine) !important;
-		color: var(--foreground) !important;
 	}
 
 	/* Header Elements */
@@ -107,14 +118,74 @@
 	}
 
 	/* ========== End Header ========== */
+	
+	/* Time Insights */
+	
+	.msLrsf /* Text Header */
+	, .BF7cNd /* Time Insights Header */
+	, .uoCvO /* Time Spent */
+	, .IJDILb /* Label Names */
+	, .hPfWQd /* Time in Meetings */
+	, .yVvvMc /* People you Meet With - Names */
+	, .eWT7sb /* Legend Text */
+	, .SWGFcb /* Time Spent */
+	{
+		color: var(--foreground);
+	}
+	
+	.SDiQL /* Most Meetings, Daily Average */
+	, .UQuaGc /* By Type, By Color */
+	, .BIsmBd[aria-checked=true] .r8fcBf
+	, .Fs5u9c
+	{
+		color: var(--purple);
+	}
+	
+	.Uaf9uf .Ce1Y1c svg
+	{
+		fill: var(--background);
+	}
+	
+	
+	.Tz47sb /* Daily Graph Line */
+	{
+		border-right-color: var(--foreground);
+	}
+	
+	.hRlabf /* Non-highlighted Week */
+	, .u0Pitc /* Next time to meet with people */
+	, .nFP92b /* X to Close */
+	{
+		color: var(--comment);
+	}
+	
+	.nFP92b:hover /* X to Close */
+	{
+		color: var(--purple);
+	}
+	
+	.BIsmBd[aria-checked=true] .CeoRYc
+	{
+		background-color: var(--pink);
+	}
+	
+	.Uaf9uf
+	{
+		background-color: var(--foreground)
+	}
+	
+	/* End Time Insights */
+	
 	/* ========== Sidebar Elements ========== */
+	
+	.DYLA1c, .WmnPA:not(.VfPpkd-fmcmS-yrriRe-OWXEXe-OWB6Me), .lUmaj {
+		background-color: var(--currentLine);
+	}
+	
 	.Q4y17 .r4nke/* Month */
-	,
-	.fWMZdd/* Meet With... */
-	,
-	.HHHDef/* Arrows */
-	,
-	.qADfd/* Time Insights */
+	, .fWMZdd/* Meet With... */
+	, .HHHDef/* Arrows */
+	, .qADfd/* Time Insights */
 	{
 		color: var(--purple)
 	}
@@ -144,24 +215,40 @@
 	.k50Dh,
 	.f1QMue,
 	.IOneve/* Calendar Widget */
-	,
-	.IOneve .r4nke/* Calendar Days */
-	,
-	#drawerMiniMonthNavigator/* Calendar Div */
-	,
-	.IOneve::before {
+	, .IOneve .r4nke/* Calendar Days */
+	, #drawerMiniMonthNavigator/* Calendar Div */
+	, .IOneve::before {
 		color: var(--foreground);
+		background-color: var(--background);
+	}
+	
+
+	  .IOneve .r4nke:hover /* Calendar Days */
+	, .p6vobf .r4nke
+	, .p6vobf.pWJCO .r4nke
+	, .p6vobf.pWJCO.q2d9Ze .r4nke
+	, .J09ahd /* meet with people list */
+	{
 		background-color: var(--currentLine);
 	}
 
-	.p6vobf .r4nke,
-	.p6vobf.pWJCO .r4nke,
-	.p6vobf.pWJCO.q2d9Ze .r4nke,
-	.J09ahd /* meet with people list */
+	
+	/* Non-current Day Hover */
+	.nSCxEf.RKLVef:hover
+	, body.geSgge .nSCxEf.RKLVef:hover
+	, .nSCxEf.N4XV7d.RKLVef:hover
+	, body.geSgge .nSCxEf.N4XV7d.RKLVef:hover
 	{
-		background-color: var(--background);
+		background-color: var(--pink);
 	}
-
+	
+	/* Highlighted Day */
+	.nSCxEf.F262Ye.RKLVef:hover
+	, body.geSgge .nSCxEf.F262Ye.RKLVef:hover
+	{
+		background-color: var(--purple);	
+	}
+	
 	.IAQE3d/* Other Time Zones */
 	{
 		color: var(--pink)
@@ -175,19 +262,29 @@
 	}
 
 	/* ========== End Sidebar ========== */
+	
+	
 	/* ========== Main Calendar ========== */
-	.OCQPo,
-	.pbeTDb,
-	.RAaXne,
+	.OCQPo
+	, .pbeTDb
+	, .RAaXne
 	/* Main Background Color */
-	.sS0sZd/* Time Zone Selectors */
-	,
-	.R6TFwe/* Time Labels */,
-	.NAFvr /* RSVP Line in Event Details */,
-	.Az5uJd.RLj2u,
-	.wmCMbe /* Top of the new event Details */
+	, .sS0sZd /* Time Zone Selectors */
+	, .R6TFwe /* Time Labels */
+	, .NAFvr /* RSVP Line in Event Details */
+	, .Az5uJd.RLj2u
+	, .wmCMbe /* Top of the new event Details */
+	, .OCQPo
+	, .pbeTDb
+	, .RAaXne
+	, .sS0sZd
+	, .R6TFwe
+	, .NAFvr
+	, .Az5uJd.RLj2u
+	, .wmCMbe
+	, .lYYbjc
 	{
-		background-color: var(--currentLine);
+		background-color: var(--background);
 	}
 	
 	.wmCMbe
@@ -218,6 +315,26 @@
 		color: var(--foreground);
 	}
 
+	/* Calendar Borders */
+	.MGaLHf /* Cells */
+	,.w6FdBf /* Day Names */
+	{
+		border-right-color: var(--currentLine);
+	}
+	
+	.FLFkR /* Rows */
+	{
+		border-bottom-color: var(--currentLine);
+	}
+	
+	.RAaXne:not(.Wyo4Qe) /* Left Side Border */
+	, .gboEAb /* Right Side Border */
+	{
+		border-left-color: var(--currentLine);
+	}
+	
+	
+	
 	.w48V4c, /* Day Numbers - Prior Month/Next Month - Month View */
 	.KF4T6b.qqMC3e,
 	.KF4T6b.smECzc,/* Event Names - Future Events - Month View */
@@ -262,7 +379,7 @@
 	.cC1eCc .VfPpkd-P5QLlc /* Add a note background */,
 	.JPdR6b
 	{
-		background-color: var(--background);
+		background-color: var(--currentLine);
 	}
 	
 	/* Event Detail Buttons */
@@ -274,7 +391,7 @@
 	
 	/* RSVP Hover */
 	.z80M1.FwR7Pc {
-		background-color: var(--currentLine);
+		background-color: var(--background);
 	}
 	
 	.wIfg3e.KKjvXb .myBJaf:not(:disabled),
@@ -284,7 +401,8 @@
 	.s3dr1 /* Set your working location */,
 	.HfYfLe:hover /* Snowman - Event Details */,
 	#c2637 /* Add a Note Text */,
-	.lUmaj .c7fp5b /* RSVP Status */
+	.lUmaj .c7fp5b /* RSVP Status */,
+	.mr0WL
 	{
 		color: var(--purple)
 	}
@@ -330,7 +448,7 @@
 	.DYLA1c /* People Card Background */,
 	.WmnPA:not(.VfPpkd-fmcmS-yrriRe-OWXEXe-OWB6Me), .lUmaj
 	{
-		background-color: var(--background);
+		background-color: var(--currentLine);
 	}
 	
 	.WmnPA:not(.VfPpkd-fmcmS-yrriRe-OWXEXe-OWB6Me) .VfPpkd-RWgCYc-ksKsZd::after
@@ -372,6 +490,8 @@
 	,.s8kOBc .VfPpkd-rymPhb-ibnC6b-OWXEXe-gk6SMd.VfPpkd-rymPhb-ibnC6b-OWXEXe-SfQLQb-M1Soyc-Bz112c .VfPpkd-rymPhb-KkROqb, .s8kOBc .VfPpkd-rymPhb-ibnC6b-OWXEXe-pXU01b.VfPpkd-rymPhb-ibnC6b-OWXEXe-SfQLQb-M1Soyc-Bz112c .VfPpkd-rymPhb-KkROqb,
 	.r6B9Fd .VfPpkd-rymPhb-ibnC6b-OWXEXe-SfQLQb-M1Soyc-Bz112c .VfPpkd-rymPhb-KkROqb, .r6B9Fd .VfPpkd-rymPhb-ibnC6b-OWXEXe-SfQLQb-UbuQg-Bz112c .VfPpkd-rymPhb-JMEf7e, .r6B9Fd .VfPpkd-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-rymPhb-Gtdoyb, .r6B9Fd .VfPpkd-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-rymPhb-fpDzbe-fmcmS, .r6B9Fd .VfPpkd-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-rymPhb-L8ivfd-fmcmS, .r6B9Fd .VfPpkd-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-rymPhb-bC5pod-fmcmS, .r6B9Fd .VfPpkd-rymPhb-ibnC6b-OWXEXe-OWB6Me.VfPpkd-rymPhb-ibnC6b-OWXEXe-SfQLQb-M1Soyc-Bz112c .VfPpkd-rymPhb-KkROqb, .r6B9Fd .VfPpkd-rymPhb-ibnC6b-OWXEXe-OWB6Me.VfPpkd-rymPhb-ibnC6b-OWXEXe-SfQLQb-UbuQg-Bz112c .VfPpkd-rymPhb-JMEf7e, .r6B9Fd .VfPpkd-rymPhb-ibnC6b-OWXEXe-OWB6Me.VfPpkd-rymPhb-ibnC6b-OWXEXe-SfQLQb-UbuQg-r4m2rf .VfPpkd-rymPhb-JMEf7e
 	,.S6zzre .VfPpkd-rymPhb-Gtdoyb, .S6zzre .VfPpkd-rymPhb-fpDzbe-fmcmS
+	,.cAP2G /* All Day Label */
+	
 	{
 		color: var(--foreground);
 	}
@@ -379,6 +499,8 @@
 	.qx9Fae.EiZ8Dd:hover/* Location Field, not edited */
 	,.CbBAab /* Availabiliyt might be shown in other google apps */
 	,.WbUJNb.VfPpkd-AznF2e-OWXEXe-auswjd .VfPpkd-jY41G-V67aGc /* Guests/Event Details/Find a Time */
+	, .OwNvm .VfPpkd-StrnGf-rymPhb-f7MjDc /* Check next to response option - hovered event */
+	, .V8Yldb, .lLCaB.Enkreb /* Add a Label */
 	{
 		color: var(--pink);
 	}
@@ -440,5 +562,10 @@
 	,.wIfg3e .Pjbkr:not(:disabled) /* Down arrow on selector */
 	{
 		color: var(--purple)
+	}
+	
+	.P2Hi5d .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-b9t22c, .P2Hi5d .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-fpDzbe-fmcmS, .P2Hi5d .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-L8ivfd-fmcmS, .mkMxfe .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-b9t22c, .mkMxfe .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-fpDzbe-fmcmS, .mkMxfe .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-L8ivfd-fmcmS, .OBi8lb .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-b9t22c, .OBi8lb .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-fpDzbe-fmcmS, .OBi8lb .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-L8ivfd-fmcmS, .P9QRxe .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-b9t22c, .P9QRxe .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-fpDzbe-fmcmS, .P9QRxe .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-L8ivfd-fmcmS, .vqjb4e .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-b9t22c, .vqjb4e .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-fpDzbe-fmcmS, .vqjb4e .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-L8ivfd-fmcmS, .y8Rdrf .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-b9t22c, .y8Rdrf .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-fpDzbe-fmcmS, .y8Rdrf .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-L8ivfd-fmcmS, .DMZ54e .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-b9t22c, .DMZ54e .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-fpDzbe-fmcmS, .DMZ54e .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-L8ivfd-fmcmS
+	{
+		color: var(--mdc-theme-on-surface)
 	}
 }
