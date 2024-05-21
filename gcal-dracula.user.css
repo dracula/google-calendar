@@ -99,7 +99,7 @@
 		background-color: var(--background);
 	}
 	
-	header.gb_Ra {
+	header {
 		background-color: var(--currentLine) !important;
 	}
 
@@ -366,6 +366,8 @@
 	.jO7h3c /* Response Choices */
 	,.OwNvm /* Completed Task Options */
 	,.sVASAd.N4XV7d /* Days in the Find a time tool */
+	,.UMrnmb-XPtOyb .VfPpkd-rOvkhd-jPmIDe-OWXEXe-ssJRIf:not(.VfPpkd-rOvkhd-jPmIDe-OWXEXe-SdanKc):hover .VfPpkd-rOvkhd-TfeOUb-V67aGc /* Propose New Time */
+	,.esZWob:not(.VfPpkd-rOvkhd-XPtOyb-OWXEXe-OWB6Me) .VfPpkd-rOvkhd-TfeOUb-V67aGc /* Proposed Time */
 	{
 		color: var(--foreground);
 	}
@@ -394,6 +396,13 @@
 		background-color: var(--background);
 	}
 	
+	.KF4T6b.UflSff .nHqeVd
+	,.meh4fc svg
+	{
+		color: var(--comment);	
+		fill: var(--comment);
+	}
+	
 	.wIfg3e.KKjvXb .myBJaf:not(:disabled),
 	.wIfg3e.KKjvXb .Pjbkr:not(:disabled),
 	.DrZ8nd:not(:disabled),
@@ -403,6 +412,7 @@
 	#c2637 /* Add a Note Text */,
 	.lUmaj .c7fp5b /* RSVP Status */,
 	.mr0WL
+	, .KF4T6b.KCIIIb /* More Events - Month Calendar */
 	{
 		color: var(--purple)
 	}
@@ -527,13 +537,14 @@
 		background-color: var(--purple);
 	}
 	
-	/* Right side bar with tasks */
-	.gboEAb
+	
+	 .gboEAb /* Right side bar with tasks */
 	,.I7OXgf /* Send Invitation to Google Calendar Guests*/
 	,.ncFHed /* Calendar Selector */
 	,.p9lUpf /* Edit Event Details */
 	,.hqBSCb:not(.VfPpkd-O1htCb-OWXEXe-OWB6Me) .VfPpkd-TkwUic /* Repetition Dropdown */
 	,.VfPpkd-xl07Ob-XxIAqe /* Repetition Options */
+	,.INK2ed.F262Ye /* Current Date Week Heading */
 	
 	{
 		background-color: var(--background);
@@ -566,6 +577,38 @@
 	
 	.P2Hi5d .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-b9t22c, .P2Hi5d .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-fpDzbe-fmcmS, .P2Hi5d .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-L8ivfd-fmcmS, .mkMxfe .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-b9t22c, .mkMxfe .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-fpDzbe-fmcmS, .mkMxfe .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-L8ivfd-fmcmS, .OBi8lb .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-b9t22c, .OBi8lb .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-fpDzbe-fmcmS, .OBi8lb .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-L8ivfd-fmcmS, .P9QRxe .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-b9t22c, .P9QRxe .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-fpDzbe-fmcmS, .P9QRxe .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-L8ivfd-fmcmS, .vqjb4e .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-b9t22c, .vqjb4e .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-fpDzbe-fmcmS, .vqjb4e .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-L8ivfd-fmcmS, .y8Rdrf .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-b9t22c, .y8Rdrf .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-fpDzbe-fmcmS, .y8Rdrf .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-L8ivfd-fmcmS, .DMZ54e .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-b9t22c, .DMZ54e .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-fpDzbe-fmcmS, .DMZ54e .VfPpkd-StrnGf-rymPhb-ibnC6b-OWXEXe-OWB6Me .VfPpkd-StrnGf-rymPhb-L8ivfd-fmcmS
 	{
-		color: var(--mdc-theme-on-surface)
+		color: var(--mdc-theme-on-surface);
+	}
+	
+	.lhydbb.EiZ8Dd /* Event Titles */,
+	.nf2dS .zHGix /* Cancellation emails? */
+	{
+		color: var(--foreground);
+		fill: var(--foreground);
+	}
+	
+	/* ---- Schedule ---- */
+	.ryakYc.UflSff 
+	,.ryakYc
+	,.H3yh2e
+	,.bf2t7b
+	, .bf2t7b.F262Ye
+	{
+		color: var(--foreground)
+	}
+	.H3yh2e:hover
+	{
+		color: var(--background)
+	}
+	
+	.bf2t7b.F262Ye .H3yh2e
+	{
+		color: var(--background);
+		background-color: var(--purple)
+	}
+	.bf2t7b.F262Ye .H3yh2e:hover
+	{
+		color: var(--background);
+		background-color: var(--pink)
 	}
 }
