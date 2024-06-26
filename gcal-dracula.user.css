@@ -85,6 +85,7 @@
 		--pkw-on-surface-variant: var(--comment);
 		--mdc-checkbox-selected-icon-color: var(--purple);
 		--mdc-checkbox-unselected-hover-state-layer-color: var(--comment);
+		--gm-hairlinebutton-outline-color: var(--foreground);
 	}
 	.xg1yEb.xg1yEb
 	{
@@ -257,8 +258,8 @@
 	{
 		color: var(--pink)
 	}
-	.o8t45d/* My Calendars */
-	,
+	.o8t45d,
+	/* My Calendars */
 	.toUqff/* Calendar Names */
 	{
 		color: var(--foreground)
@@ -351,6 +352,9 @@
 	,
 	.agOyMd div.AzuXid/* Event Time - Event Details */
 	,
+	.JEx5le .UfeRlc,
+	/* Event Title */
+	.JEx5le div.AzuXid,
 	.pdqVLc .cjq2Db:not(.RDPZE),
 	.pdqVLc .DPvwYc,
 	.pdqVLc .meh4fc/* Event Details Icons */
@@ -368,48 +372,43 @@
 	,
 	.cC1eCc .VfPpkd-k2Wrsb/* Add a Note - Title */
 	,
-	.INBYpd:not(:disabled) .VfPpkd-kBDsod
+	.INBYpd:not(:disabled) .VfPpkd-kBDsod,
+	/* Response Buttons */
+	.DrZ8nd:not(:disabled):hover,
+	.wIfg3e.KKjvXb [data-button-type = actionButton],
+	.wIfg3e.KKjvXb [data-button-type = menuButton],
+	.mDDiqc.KKjvXb [data-button-type = actionButton],
+	.mDDiqc.KKjvXb [data-button-type = menuButton]
 	{
 		color: var(--foreground);
 		fill: var(--foreground);
 	}
-	.WmnPA:not(.VfPpkd-fmcmS-yrriRe-OWXEXe-OWB6Me),
-	.lUmaj/* RSVP Dropdown */
-	{
-		background-color: var(--currentLine);
-		color: var(--foreground);
-	}
-	.WmnPA:not(.VfPpkd-fmcmS-yrriRe-OWXEXe-OWB6Me) .VfPpkd-fmcmS-wGMbrd/* Add a note - Text Area */
-	,
-	.jO7h3c/* Response Choices */
-	,
-	.OwNvm/* Completed Task Options */
-	,
-	.sVASAd.N4XV7d/* Days in the Find a time tool */
-	,
-	.UMrnmb-XPtOyb .VfPpkd-rOvkhd-jPmIDe-OWXEXe-ssJRIf:not(.VfPpkd-rOvkhd-jPmIDe-OWXEXe-SdanKc):hover .VfPpkd-rOvkhd-TfeOUb-V67aGc/* Propose New Time */
-	,
-	.esZWob:not(.VfPpkd-rOvkhd-XPtOyb-OWXEXe-OWB6Me) .VfPpkd-rOvkhd-TfeOUb-V67aGc/* Proposed Time */
-	{
-		color: var(--foreground);
-	}
-	.SP8Atf/* Completed Task Icons */
-	{
-		color: var(--comment);
-	}
-	.NZp2ef,
-	/* Event Detail Options Background */
-	.cC1eCc .VfPpkd-P5QLlc/* Add a note background */
-	,
-	.JPdR6b
+
+	.wIfg3e.KKjvXb [data-button-type = actionButton],
+	.wIfg3e.KKjvXb [data-button-type = menuButton],
+	.mDDiqc.KKjvXb [data-button-type = actionButton],
+	.mDDiqc.KKjvXb [data-button-type = menuButton]
 	{
 		background-color: var(--currentLine);
 	}
-	/* Event Detail Buttons */
+
+	.wIfg3e.KKjvXb .myBJaf:not(:disabled):hover,
+	.mDDiqc.KKjvXb .myBJaf:not(:disabled):hover,
+	.wIfg3e.KKjvXb .Pjbkr:not(:disabled):hover .VfPpkd-kBDsod,
+	.mDDiqc.KKjvXb .Pjbkr:not(:disabled):hover .VfPpkd-kBDsod,
+	.wIfg3e.KKjvXb .Pjbkr:not(:disabled) .VfPpkd-kBDsod,
+	.mDDiqc.KKjvXb .Pjbkr:not(:disabled) .VfPpkd-kBDsod
+	{
+		color: var(--pink);
+	}
+
+
 	.wIfg3e.KKjvXb .myBJaf:not(:disabled),
-	.wIfg3e.KKjvXb .Pjbkr:not(:disabled)
+	.wIfg3e.KKjvXb .Pjbkr:not(:disabled),
+	.wIfg3e.KKjvXb .myBJaf:not(:disabled):hover,
+	.mDDiqc.KKjvXb .myBJaf:not(:disabled):hover
 	{
-		border-color: var(--background);
+		border-color: var(--foreground);
 	}
 	/* RSVP Hover */
 	.z80M1.FwR7Pc
