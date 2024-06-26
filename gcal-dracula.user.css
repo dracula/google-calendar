@@ -104,7 +104,7 @@
 	}
 	/* Header Elements */
 	.gb_Pc svg,
-	.NkK3Fc span[role=heading],
+	.NkK3Fc span[role = heading],
 	.j9Fkxf:not(:disabled),
 	.JJyfjc,
 	.UyW9db,
@@ -140,7 +140,7 @@
 	,
 	.UQuaGc/* By Type, By Color */
 	,
-	.BIsmBd[aria-checked=true] .r8fcBf,
+	.BIsmBd[aria-checked = true] .r8fcBf,
 	.Fs5u9c
 	{
 		color: var(--purple);
@@ -165,7 +165,7 @@
 	{
 		color: var(--purple);
 	}
-	.BIsmBd[aria-checked=true] .CeoRYc
+	.BIsmBd[aria-checked = true] .CeoRYc
 	{
 		background-color: var(--pink);
 	}
@@ -839,13 +839,13 @@
 	}
 
 	.i69Mv,
-	.i69Mv[aria-selected=false],
+	.i69Mv[aria-selected = false],
 	.bRcSk.sY9Vnd.a5K8d
 	{
 		background-color: var(--background);
 		border-color: var(--purple);
 	}
-	.i69Mv[aria-selected=true]
+	.i69Mv[aria-selected = true]
 	{
 		background-color: var(--purple)
 	}
@@ -923,13 +923,13 @@
 
 	.PV0kIb.qfySBc:hover .NTkb2d:before
 	{
-		background: linear-gradient(to right, var(--background), var(--currentLine))
+		background: var(--background);
 	}
 
 	.PV0kIb.qfySBc:hover .RX7uYe,
 	.PV0kIb.qfySBc:hover .NTkb2d
 	{
-		background-color: var(--currentLine);
+		background-color: var(--background);
 	}
 
 	:not(.VfPpkd-rymPhb-ibnC6b-OWXEXe-OWB6Me).VfPpkd-rymPhb-ibnC6b .VfPpkd-rymPhb-pZXsl::before,
@@ -940,8 +940,8 @@
 
 	.IERos .hWI7Ad,
 	.IERos .onVpGf,
-	.iAdAj .wjA21c[aria-current=true] .sI0yPe,
-	.iAdAj .wjA21c[aria-current=false] .sI0yPe
+	.iAdAj .wjA21c[aria-current = true] .sI0yPe,
+	.iAdAj .wjA21c[aria-current = false] .sI0yPe
 	{
 		color: var(--purple);
 	}
@@ -949,7 +949,7 @@
 	/* Checkboxes */
 	.Rs7YHd .VfPpkd-muHVFf-bMcfAe:enabled:checked ~ .VfPpkd-YQoJzd,
 	.Rs7YHd .VfPpkd-muHVFf-bMcfAe:enabled:indeterminate ~ .VfPpkd-YQoJzd,
-	.Rs7YHd .VfPpkd-muHVFf-bMcfAe[data-indeterminate=true]:enabled ~ .VfPpkd-YQoJzd
+	.Rs7YHd .VfPpkd-muHVFf-bMcfAe[data-indeterminate = true]:enabled ~ .VfPpkd-YQoJzd
 	{
 		border-color: var(--purple);
 		background-color: var(--purple);
@@ -965,7 +965,7 @@
 	.bRcSk.sY9Vnd.a5K8d:focus:before,
 	.bRcSk.sY9Vnd.a5K8d:focus-within:not(:focus):before
 	{
-		background-color: var(--currentLine)
+		background-color: var(--currentLine);
 	}
 
 	.bRcSk.sY9Vnd.a5K8d:focus,
@@ -987,11 +987,23 @@
 
 	.cHxrOd
 	{
-		color: var(--comment)
+		color: var(--foreground);
+	}
+
+	.lq5Efd.XEiI1b:hover
+	{
+		background-color: var(--background);
 	}
 
 	.BU0ogb
 	{
 		color: var(--pink)
+	}
+
+	.fUHEuc,
+	.Fx3JUe.Fx3JUe.Fx3JUe
+	{
+		color: var(--foreground);
+		caret-color: var(--foreground);
 	}
 }
