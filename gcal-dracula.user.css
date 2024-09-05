@@ -117,6 +117,24 @@
 	{
 		color: var(--foreground) !important;
 	}
+
+	/* RSVP */
+	.cC1eCc .VfPpkd-P5QLlc,
+	.cC1eCc .VfPpkd-P5QLlc div
+	{
+		background-color: var(--currentLine);
+		color: var(--foreground);
+	}
+	
+	/* ========= Pre September 2024 ============ */
+
+	.cC1eCc .VfPpkd-P5QLlc div input[type = radio]
+	{
+		color: var(--pink);
+		background-color: var(--yellow)!important;
+	}
+
+
 	/* ========== End Header ========== */
 	/* Time Insights */
 	.msLrsf/* Text Header */
@@ -295,7 +313,6 @@
 	{
 		box-shadow: inset 0 1px var(--background)
 	}
-	.ouBNcf,
 	.iHNmdb/* Times */
 	,
 	.nSCxEf.pCcXPe/* Day of the month */
@@ -680,6 +697,104 @@
 		color: var(--background);
 		background-color: var(--pink)
 	}
+	
+	/* ================== Post September 2024 =================== */
+	
+	/* Mini Calendar */
+	#drawerMiniMonthNavigator div div span,
+	#drawerMiniMonthNavigator div table[role = grid] tbody tr td button div,
+	#drawerMiniMonthNavigator
+	{
+		color: var(--foreground);
+	}
+	
+	#drawerMiniMonthNavigator div table[role = grid] thead tr th span
+	{
+		color: var(--pink)
+	}
+	
+	#drawerMiniMonthNavigator div table[role = grid] tbody tr td.q2d9Ze button div
+	{
+		color: var(--comment)
+	}
+	/* End Mini Calendar */
+
+	/* Right Click Invited Event */
+	div.VfPpkd-xl07Ob-XxIAqe ul li
+	{
+		color: var(--foreground);
+	}
+	/* End Right Click Invited Event */
+	
+	/* Event Edit Page */
+	#YPCqFe div[role = main] label input,
+	#YPCqFe div[role = main] i.google-material-icons,
+	#xEvtTab span,
+	#xFATTab span
+	{
+		color: var(--foreground);
+	}
+	
+	div[role = tabpanel] div[role = presentation] div[role = columnheader] h2 div
+	{
+		color: var(--foreground)
+	}
+	
+	div[role = tabpanel] div[role = presentation] div
+	{
+		color: var(--comment)
+	}
+	
+	span[role = tooltip] div
+	{
+		background-color: var(--currentLine);
+		color: var(--foreground);
+	}
+	
+	/* End Event Edit Page*/
+	
+	/* Event Detail Dialog */
+	#xDetDlg>div>div>div,
+	#xDetDlg>div>div>div>span
+	{
+		background-color: var(--currentLine);
+		color: var(--foreground);
+	}
+	
+	div.VfPpkd-xl07Ob-XxIAqe
+	{
+		background-color: var(--currentLine);
+	}
+	
+	.OfXTCc.KKjvXb /* Selected */
+	{
+		background-color: var(--purple);
+	}
+	
+	div.VfPpkd-xl07Ob-XxIAqe ul li svg,
+	div.VfPpkd-xl07Ob-XxIAqe .VfPpkd-rymPhb-fpDzbe-fmcmS
+	{
+		color: var(--foreground);
+	}
+	
+	#xDetDlg button svg
+	{
+		color: var(--foreground);
+	}
+	/* End Event Detail Dialog */
+	
+	/* Calendar Heading */
+	#YPCqFe div[role = main] h2 div
+	{
+		color: var(--foreground);
+	}
+	
+	.ouBNcf
+	{
+		color: var(--cyan);
+	}
+	/* Calendar Heading */
+
 }
 @-moz-document domain("tasks.google.com")
 {
