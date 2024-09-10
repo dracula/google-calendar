@@ -794,6 +794,13 @@
 		color: var(--cyan);
 	}
 	/* Calendar Heading */
+	
+	/* New Calendar Event from Calendar View */
+	#yDmH0d input {
+		color: var(--foreground);
+	}
+	/* End New Calendar Event from Calendar View */
+	
 
 }
 @-moz-document domain("tasks.google.com")
