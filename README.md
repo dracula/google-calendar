@@ -16,6 +16,7 @@ This theme is maintained by the following person(s) and a bunch of [awesome cont
 |---------|
 | [Aaron Clark](https://github.com/accountingnerd)                                                      |
 
+NOTE: Google has made significant changes to the calendar since this theme was released, and I haven't been able to keep up. If anyone out there is interested in helping with this, please let me know by filing an issue.
 
 ## Community
 
