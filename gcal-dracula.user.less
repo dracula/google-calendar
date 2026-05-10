@@ -10,20 +10,18 @@
 @license MIT
 
 @preprocessor less
-@var select lightFlavor "Light Flavor" ["latte:Latte*", "frappe:Frappé", "macchiato:Macchiato", "mocha:Mocha"]
-@var select darkFlavor "Dark Flavor" ["latte:Latte", "frappe:Frappé", "macchiato:Macchiato", "mocha:Mocha*"]
-@var select accentColor "Accent" ["rosewater:Rosewater", "flamingo:Flamingo", "pink:Pink", "mauve:Mauve*", "red:Red", "maroon:Maroon", "peach:Peach", "yellow:Yellow", "green:Green", "teal:Teal", "blue:Blue", "sapphire:Sapphire", "sky:Sky", "lavender:Lavender", "subtext0:Gray"]
+@var select lightFlavor "Light Flavor" ["latte:Latte*"]
+@var select darkFlavor "Dark Flavor" ["mocha:Mocha*"]
+@var select accentColor "Accent" [ "pink:Pink", "mauve:Purple*", "peach:Orange", "yellow:Yellow", "green:Green"]
 ==/UserStyle== */
 
 @import "https://github.com/dracula/google-calendar/raw/refs/heads/v2026/lib/lib.less";
-
-// @import "https://userstyles.dracula.com/lib/m3.less";
 @import "https://github.com/dracula/google-calendar/raw/refs/heads/v2026/lib/m3.less";
 
 @-moz-document domain("calendar.google.com") {
   // Initial load, before JS init
   .DO879e.PC2yOb {
-    #dracula(@lightFlavor);
+    #dracula(@darkFlavor);
   }
   @media (prefers-color-scheme: dark) {
     .DO879e.PC2yOb {
